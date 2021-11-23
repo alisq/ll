@@ -1,0 +1,496 @@
+body {
+	cursor: url(Images/Cursors/Cursor_5.2.png), default;
+	overflow-x: hidden;
+
+}
+
+
+p {
+	margin: 0;
+	/*margin-bottom:1em;*/
+	hyphens: none;
+}
+
+
+.wrapper {
+	background-image: linear-gradient(to bottom, white, #6B38BF);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: calc(100vw);
+	height: calc(100vh);
+	margin-left: 0rem; /*this is the margin all around*/
+	margin-right: 0rem;
+	margin-top: 0rem;
+	padding-left: .5rem;
+	padding-right: .5rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr
+	grid-template-rows: default;
+	grid-column-gap: 0rem;
+	grid-row-gap: 0rem;
+	overflow: auto;
+}
+
+
+.box {
+	width: calc(100% - 2rem);
+	height: default;
+}
+
+.box.one {
+	font-family: "Times New Roman", Times, serif;
+	font-style: normal;
+	hyphens: auto;
+	font-size: 42px;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row height:default;
+	color: #6B38BF;
+	line-height:42px;
+	text-align: top;
+	padding-left:.5rem;
+	padding-right:.5rem;
+	padding-top:.5rem;
+	padding-bottom: .5rem;
+	margin: 0px;
+	overflow: scroll;
+	overflow-x: hidden;
+	hyphens:none;
+	background: none;
+
+}
+
+div {
+	display:block;
+}
+
+
+/*THIS IS THE INTERVIEW SECTION*/
+
+
+.box.two {
+	grid-column-start: 3;
+	grid-column-end: 4;
+	padding: 0px;
+	margin-top: 1rem;
+	vertical-align: top;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	background: none;
+	overflow: scroll;
+	overflow-x: hidden;
+	cursor: url(Images/Cursors/Cursor_6.1.png), pointer;
+
+}
+
+
+.question {
+	font-family: "Times New Roman", Times, serif;
+	font-style: normal;
+	font-weight:lighter;
+	font-size: 18px;
+	line-height:20px;
+	border-radius: 20px;
+ 	background: none;
+ 		border: 1px solid #6B38BF;
+ 	color: #6B38BF;
+ 	font-weight: normal;
+  	padding: 1rem;
+  	width: 92%;
+ 	height: auto;
+ 	margin-bottom: 1rem;
+ 	overflow: hidden;
+ 	hyphens: auto;
+ 	white-space: normal;
+
+}
+
+.answer {
+	font-family: "Arial", Arial, Sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 18px;
+	border-radius: 20px;
+  	background: #6B38BF;
+  	color: white !important;
+  	border: 1px solid #6B38BF;
+  	padding: 1rem;
+ 	width: 92%;
+  	height: auto;
+  	margin-bottom: 1rem;
+  	overflow: hidden;
+  	hyphens: auto;
+ 	white-space: normal;
+
+}
+
+
+
+.conclusion {
+	font-family: "Times New Roman", Times, serif;
+	font-style: normal;
+	font-weight:lighter;
+	font-size: 42px;
+	line-height: 42px;
+	border-radius: 20px;
+ 	background: none;
+ 	color: #6B38BF;
+ 	font-weight: normal;
+  	padding: 1rem;
+  	width: 92%;
+ 	height: auto;
+ 	margin-bottom: 1rem;
+ 	overflow: hidden;
+ 	hyphens: none;
+ 	white-space: normal;
+
+}
+
+.conclusion .a {
+	color:white;
+}
+
+
+#top{
+	font-size: 42px;
+	color: #6B38BF;
+}
+
+
+.back-ll {
+	font-size:22px;
+	color: #8c6ac4 !important;
+}
+
+
+.back-ll a:hover, .back-ll a:visited, .back-ll a:link, .back-ll a:active {
+    text-decoration: none;
+    color: #8c6ac4;
+}
+
+
+/* unvisited link */
+a:link {
+ color: #6B38BF;
+
+}
+
+/* visited link */
+a:visited {
+  color: #6B38BF;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+  cursor: url(Images/Cursors/Cursor_5.3.png), pointer;
+}
+
+
+.highlight:hover {
+  background-color: #6B38BF;
+  color: white;
+  cursor: url(Images/Cursors/Cursor_5.3.png), pointer;
+
+}
+
+
+#top:hover {
+	  color:white;
+  	  cursor: url(Images/Cursors/Cursor_5.3.png), pointer;
+}
+
+.qawpic {
+	/*display:none!important;*/
+
+	position:fixed;
+	top:-500px;
+}
+
+
+.qawpic:hover {
+	display:inline-block!important;
+}
+
+.qawpicshover:hover ~ .posterpic {
+  display: inline-block;
+
+}
+
+.qawpicshover:hover {
+	  color: white;
+	  background-color: #6B38BF;
+	  cursor: url(Images/Cursors/Cursor_5.3.png), pointer;
+/*	  cursor-size:50%;
+*/}
+
+
+.imagetiles:hover {
+	  color:#C3B79C;
+	  cursor: url(Images/Cursors/Cursor_5.3.png), pointer;
+/*	  cursor-size:50%;
+*/}
+
+.qawpic {
+  display:inline-block;
+  z-index:10;
+  pointer-events: auto;
+  position:fixed;
+  top: -180%;
+  left: 2.5%;
+  flex-direction: column;
+  width:75%;
+  height:75%;
+  max-width: 75% !important;
+  max-height: 75% !important;
+  cursor: -webkit-grab; cursor: grab;
+  pointer-events:none;
+}
+
+.imagetiles {
+  width:55%;
+  height:55%;
+  max-width: 55% !important;
+  max-height: 55% !important;
+  top: 0%;
+  left: 0%;
+}
+
+
+
+/*SCROLLBAR:*/
+
+
+		.box.one::-webkit-scrollbar {
+				width:12px;
+				background-image: linear-gradient(to bottom, white, #6B38BF);
+			}
+
+		.box.two::-webkit-scrollbar {
+				width:12px;
+				background-image: linear-gradient(to bottom, white, #6B38BF);
+			}
+
+
+
+		/*Scrollbar track*/
+
+		.box.one::-webkit-scrollbar-track{
+			width:12px;
+			height:auto;
+			}
+
+		.box.one::-webkit-scrollbar-track:hover{
+			width:12px;
+			height:auto;
+			}
+
+		.box.two::-webkit-scrollbar-track{
+			width:12px;
+			height:auto;
+			}
+
+		.box.two::-webkit-scrollbar-track:hover{
+			width:12px;
+			height:auto;
+			}
+
+
+		/*Scrollbar handle*/
+
+
+		.box.one::-webkit-scrollbar-thumb {
+		    background: none;
+		    border-radius: 10px;
+			height:5em;
+
+		}
+
+		.box.one::-webkit-scrollbar-thumb:hover {
+		    background: #6B38BF;
+		    border: 1px dotted white;
+		    border-radius: 10px;
+
+		}
+
+		.box.two::-webkit-scrollbar-thumb {
+		    background: none;
+		    border-radius: 10px;
+			height:20rem;
+
+		}
+
+		.box.two::-webkit-scrollbar-thumb:hover {
+		    background: #6B38BF;
+		    border: 1px dotted white;
+		    border-radius: 10px;
+
+		}
+
+
+@media only screen and (max-width: 1000px) {
+
+
+.imagetiles {
+  width:95%;
+  height:95%;
+  max-width: 95% !important;
+  max-height: 95% !important;
+  top: 0%;
+  left: 0%;
+}
+
+.wrapper {
+	position:static; /* ALI REMOVED FIXED PROPERTY */
+	display:block;   /* ALI MADE THIS NO LONGER DISPLAU GRID */
+	height:auto; /* ALI DID THIS */
+	background-image: linear-gradient(to bottom, white, #6c38bf);/* REBECCA FIX THIS */
+}
+
+.box.one {
+	
+	font-size: 48px;
+	line-height: 48px;
+
+	height:auto; /* ALI DID THIS */
+
+}
+
+
+.box.two {
+	
+	background:none;
+
+}
+	
+
+	.back-ll {
+	color: #6B38BF;
+	font-size:24px;
+}
+
+.back-ll a:hover, .back-ll a:visited, .back-ll a:link, .back-ll a:active {
+    text-decoration: none;
+    color: #6B38BF;
+}
+
+
+.question {
+	font-family: "Times New Roman", Times, serif;
+	font-style: normal;
+	font-weight:lighter;
+	font-size: 48px;
+	line-height:48px;
+	border-radius: 20px;
+ 	background: none;
+ 	border: 1px solid #6B38BF;
+ 	color: #6B38BF;
+ 	font-weight: normal;
+  	padding: 1rem;
+  	width: 92%;
+ 	height: auto;
+ 	margin-bottom: 1rem;
+ 	overflow: hidden;
+ 	hyphens: auto;
+ 	white-space: normal;
+
+}
+
+.answer {
+	font-family: "Arial", Arial, Sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 38px;
+	line-height: 42px;
+	border-radius: 20px;
+  	background: #6B38BF;
+  	color: white !important;
+  	border: 1px solid #6B38BF;
+  	padding: 1rem;
+ 	width: 92%;
+  	height: auto;
+  	margin-bottom: 1rem;
+  	overflow: hidden;
+  	hyphens: auto;
+ 	white-space: normal;
+
+}
+
+/*SCROLLBAR:*/
+
+
+		.box.one::-webkit-scrollbar {
+				width:12px;
+				background:none;
+			}
+
+		.box.two::-webkit-scrollbar {
+				width:12px;
+				background:none;
+			}
+
+
+
+		/*Scrollbar track*/
+
+		.box.one::-webkit-scrollbar-track{
+			background:none;
+			width:12px;
+			height:auto;
+			}
+
+		.box.one::-webkit-scrollbar-track:hover{
+			background:none;
+			width:12px;
+			height:auto;
+			}
+
+		.box.two::-webkit-scrollbar-track{
+			background:none;
+			width:12px;
+			height:auto;
+			}
+
+		.box.two::-webkit-scrollbar-track:hover{
+			background:none;
+			width:12px;
+			height:auto;
+			}
+
+
+		/*Scrollbar handle*/
+
+
+		.box.one::-webkit-scrollbar-thumb {
+		    background: none;
+		    border-radius: 10px;
+			height:5em;
+
+		}
+
+		.box.one::-webkit-scrollbar-thumb:hover {
+		    background: #6B38BF;
+		    border: 1px dotted white;
+		    border-radius: 10px;
+
+		}
+
+		.box.two::-webkit-scrollbar-thumb {
+		    background: none;
+		    border-radius: 10px;
+			height:10rem;
+
+		}
+
+		.box.two::-webkit-scrollbar-thumb:hover {
+		    background: #6B38BF;
+		    border: 1px dotted white;
+		    border-radius: 10px;
+
+		}
+
+
+}

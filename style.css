@@ -1,0 +1,312 @@
+
+body {
+	background: red;
+	cursor: url(Images/Cursors/Cursor_4-5.png), default;
+	overflow-x: hidden;
+	font-family: "Times New Roman", Times, serif;
+	font-style: normal;
+
+}
+
+
+
+p {
+	margin: 0;
+	margin-bottom:.2em;
+}
+
+
+.wrapper {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: calc(100vw - 1rem);
+	height: calc(100vh - 0rem);
+	margin-left: .5rem; /*this is the margin all around*/
+	margin-right: .5rem;
+	margin-top: 0rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: default;
+	grid-column-gap: 1rem;
+	grid-row-gap: 0rem;
+	overflow: auto;
+}
+
+
+.box {
+	background: red;
+	width: calc(100% - 2rem);
+	height: default;
+/*	padding: 1rem;*/
+}
+
+.box.one {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row height:default;
+	height: 1fr;
+	font-style: normal;
+	color: white;
+	font-size: 64px;
+	line-height:64px;
+	text-align: top;
+	padding-left:.5rem;
+	padding-right:.5rem;
+	padding-top:.5rem;
+	margin: 0px;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+
+
+.box.two {
+	grid-column-start: 3;
+	grid-column-end: 4;
+	font-style: normal;
+	font-size: 22px;
+	color: white;
+	line-height:24px;
+	text-align:left;
+	padding-left:.5rem;
+	padding-right:0rem;
+	padding-top:1.5rem;
+	margin: 0px;
+	font-style: normal;
+	overflow: scroll;
+	grid-row height:default;
+	overflow: scroll;
+	overflow-x: hidden;
+	cursor: url(Images/Cursors/Cursor_4-7.png), pointer;
+
+}
+
+.highlight:hover {
+  background-color: #6B38BF;
+  cursor: url(Images/Cursors/Cursor_4-8.png), pointer;
+
+}
+
+/*BOTTOM SECTION*/
+
+.contact {
+	color:#6B38BF;
+}
+
+
+.email {
+	cursor: auto;
+}
+
+/*LINKS*/
+
+a:visited {
+	color: #6B38BF;
+/*	color: #C3B79C;*/
+}
+
+/* mouse over link */
+a:hover {
+color:#C3B79C;
+cursor: url(Images/Cursors/Cursor_4-6.png), pointer;
+
+
+}
+
+a.issues:link {
+  text-decoration: none;
+  cursor: url(Images/Cursors/Cursor_4-6.png), pointer;
+  color: #6B38BF;
+}
+
+a. {
+	color: #6B38BF;
+
+}
+
+
+/*INTERVIEWS COMING SOON GRAPHIC*/
+
+		.starburst {
+		  background: #6B38BF;  
+		  width: 6em;
+		  height: 6em;
+		  text-align: center;
+		  color:white;
+		}
+
+		.starburst,
+		.starburst span {
+		  display: flex;
+		  align-items: center;
+		  justify-content: center;
+		  line-height:22px;
+		  font-size:22px;
+		  font-style:italic;
+		}
+
+		.starburst span {
+		  width: 100%;
+		  height: 100%;
+		  background: inherit;
+		  transform: rotate(45deg);
+		}
+
+		.starburst:before,
+		.starburst:after ,
+		.starburst span:before,
+		.starburst span:after {
+		  content: "";
+		  position: fixed;
+		  top: 0;
+		  left: 0;
+		  width: 100%;
+		  height: 100%;
+		  background: inherit;
+		  z-index: -1;
+		  transform: rotate(30deg);
+		}
+
+		.starburst:after {
+		  transform: rotate(-30deg);
+		}
+
+		.starburst span:after {
+		  transform: rotate(30deg);
+		}
+		.starburst span:before {
+		  transform: rotate(-30deg);
+		}
+
+		.example {
+		  position: absolute;
+		  top: 16em;  
+		  display:inline-block;
+		}
+
+		#example-2 {
+		margin-left:4em;
+		transform: rotate(-80deg);
+		}
+
+
+/*SCROLLBAR:*/
+
+
+		.box.one::-webkit-scrollbar {
+				width:12px;
+				background:red;
+			}
+
+		.box.two::-webkit-scrollbar {
+				width:12px;
+				background:red;
+			}
+
+
+
+		/*Scrollbar track*/
+
+		.box.one::-webkit-scrollbar-track{
+			background:red;
+			width:12px;
+/*			height:auto;*/
+			}
+
+/*		.box.one::-webkit-scrollbar-track:horizontal{
+			background:purple;
+			width:auto;
+			height:12px;
+			}*/
+
+		.box.one::-webkit-scrollbar-track:hover{
+			background:red;
+			width:12px;
+/*			height:auto;*/
+			}
+
+		/*Scrollbar handle*/
+
+
+		.box.one::-webkit-scrollbar-thumb {
+		    background: red;
+/*		    border: 1px dotted white;
+*/		    border-radius: 10px;
+			height:auto;
+
+		}
+
+		.box.one::-webkit-scrollbar-thumb:hover {
+		    background: red;
+		    border: 1px dotted white;
+		    border-radius: 10px;
+
+		}
+
+
+
+
+/*MOBILE DETAILS*/
+
+@media only screen and (max-width: 1000px) {
+
+.box.one {
+
+	font-size: 48px;
+	line-height: 48px;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	overflow:scroll;
+	grid-row height:default;
+	margin-bottom: 22px;
+	overflow-x: hidden;
+
+}
+
+
+.box.two {
+	grid-column-start: 1;
+	grid-column-end: 4;	
+	grid-row height:default;
+	margin-top:-20px;
+	font-size: 48px;
+	line-height:48px;
+	color: white;
+	overflow:scroll;
+	overflow-x: hidden;
+
+}
+
+
+
+
+/*INTERVIEWS STAR*/
+
+	.starburst {
+		display: none;
+	  background: #6B38BF;  
+	  width: 6em;
+	  height: 6em;
+	  text-align: center;
+	  color:white;
+	}
+
+
+	.example {
+	  position: relative;
+	  top: 4.5em;  
+	}
+
+	#example-2 {
+	margin-left:4em;
+	transform: rotate(-80deg);
+	}
+
+
+
+}
+
+
+
+
