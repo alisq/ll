@@ -33,7 +33,7 @@ p {
 	padding-left: .5rem;
 	padding-right: .5rem;
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-rows: default;
 	grid-column-gap: 0rem;
 	grid-row-gap: 0rem;
