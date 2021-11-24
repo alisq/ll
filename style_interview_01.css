@@ -1,4 +1,13 @@
+/*** ALI ADDED THIS **/
+
+* {
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
 body {
+
 	cursor: url(Images/Cursors/Cursor_5.2.png), default;
 	overflow-x: hidden;
 
