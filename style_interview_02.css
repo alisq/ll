@@ -98,11 +98,11 @@ div {
 	font-family: "Times New Roman", Times, serif;
 	font-style: normal;
 	font-weight:lighter;
-	font-size: 18px;
-	line-height:20px;
+	font-size: 20px;
+	line-height:22px;
 	border-radius: 20px;
  	background: none;
- 		border: 1px solid #089e4b;
+ 	border: 1px solid #089e4b;
  	color: #089e4b;
  	font-weight: normal;
   	padding: 1rem;
@@ -119,14 +119,14 @@ div {
 	font-family: "Arial", Arial, Sans-serif;
 	font-weight: 300;
 	font-style: normal;
-	font-size: 16px;
-	line-height: 18px;
+	font-size: 18px;
+	line-height: 20px;
 	border-radius: 20px;
   	background: #089e4b;
   	color: white !important;
   	border: 1px solid #089e4b;
   	padding: 1rem;
- 	width: 92%;
+ 	width: 95%;
   	height: auto;
   	margin-bottom: 1rem; 	
   	overflow: hidden;
@@ -148,7 +148,7 @@ div {
  	color: #089e4b;
  	font-weight: normal;
   	padding: 1rem;
-  	width: 92%;
+  	width: 95%;
  	height: auto;
  	margin-bottom: 1rem;
  	overflow: hidden;
@@ -360,38 +360,38 @@ a:hover {
   left: 0%;
 }
 
-
+.wrapper {
+	position:static; /* ALI REMOVED FIXED PROPERTY */
+	display:block;   /* ALI MADE THIS NO LONGER DISPLAU GRID */
+	height:auto; /* ALI DID THIS */
+	background-image: linear-gradient(to bottom, white, #089e4b);/* REBECCA FIX THIS */
+}
 
 .box.one {
-	grid-column-start: 1;
-	grid-column-end: 4;
+	padding: 1rem;
 	font-size: 48px;
 	line-height: 48px;
-	grid-row height:default;
-	overflow-y:scroll;
-	overflow:scroll;
-	overflow-x: hidden;
+	height:auto; /* ALI DID THIS */
 
 }
 
 
 .box.two {
-	grid-column-start: 1;
-	grid-column-end: 4;
-	overflow:scroll;
-	overflow-x: hidden;
 	background:none;
-
 }
-	.wrapper {
-		grid-template-columns: 1fr;
+	
 
-	}
-
-	.back-ll {
+		.back-ll {
 	color: #089e4b;
 	font-size:24px;
 }
+
+
+/*	.wrapper {
+		grid-template-columns: 1fr;
+
+	}*/
+
 
 .back-ll a:hover, .back-ll a:visited, .back-ll a:link, .back-ll a:active {
     text-decoration: none;
@@ -411,7 +411,7 @@ a:hover {
  	color: #089e4b;
  	font-weight: normal;
   	padding: 1rem;
-  	width: 92%;
+  	width: 100%;
  	height: auto;
  	margin-bottom: 1rem;
  	overflow: hidden;
@@ -431,7 +431,7 @@ a:hover {
   	color: white !important;
   	border: 1px solid #089e4b;
   	padding: 1rem;
- 	width: 92%;
+ 	width: 100%;
   	height: auto;
   	margin-bottom: 1rem; 	
   	overflow: hidden;
@@ -443,75 +443,12 @@ a:hover {
 /*SCROLLBAR:*/
 
 
-		.box.one::-webkit-scrollbar {
-				width:12px;
-				background:none;
-			}
+.box.one {overflow: hidden; /* Hide scrollbars */
+  }
 
-		.box.two::-webkit-scrollbar {
-				width:12px;
-				background:none;
-			}
+.box.two {overflow: hidden; /* Hide scrollbars */
+  }
 
-
-
-		/*Scrollbar track*/
-
-		.box.one::-webkit-scrollbar-track{
-			background:none;
-			width:12px;
-			height:auto;
-			}
-
-		.box.one::-webkit-scrollbar-track:hover{
-			background:none;
-			width:12px;
-			height:auto;
-			}
-
-		.box.two::-webkit-scrollbar-track{
-			background:none;
-			width:12px;
-			height:auto;
-			}
-
-		.box.two::-webkit-scrollbar-track:hover{
-			background:none;
-			width:12px;
-			height:auto;
-			}
-
-
-		/*Scrollbar handle*/
-
-
-		.box.one::-webkit-scrollbar-thumb {
-		    background: none;
-		    border-radius: 10px;
-			height:5em;
-
-		}
-
-		.box.one::-webkit-scrollbar-thumb:hover {
-		    background: #089e4b
-		    border: 1px dotted white;
-		    border-radius: 10px;
-
-		}
-
-		.box.two::-webkit-scrollbar-thumb {
-		    background: none;
-		    border-radius: 10px;
-			height:10rem;
-
-		}
-
-		.box.two::-webkit-scrollbar-thumb:hover {
-		    background: #089e4b;
-		    border: 1px dotted white;
-		    border-radius: 10px;
-
-		}
 
 
 }

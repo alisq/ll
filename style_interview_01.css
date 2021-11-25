@@ -99,15 +99,15 @@ div {
 	font-family: "Times New Roman", Times, serif;
 	font-style: normal;
 	font-weight:lighter;
-	font-size: 18px;
-	line-height:20px;
+	font-size: 20px;
+	line-height:22px;
 	border-radius: 20px;
  	background: none;
- 		border: 1px solid #6B38BF;
+ 	border: 1px solid #6B38BF;
  	color: #6B38BF;
  	font-weight: normal;
   	padding: 1rem;
-  	width: 92%;
+  	width: 95%;
  	height: auto;
  	margin-bottom: 1rem;
  	overflow: hidden;
@@ -120,14 +120,14 @@ div {
 	font-family: "Arial", Arial, Sans-serif;
 	font-weight: 300;
 	font-style: normal;
-	font-size: 16px;
-	line-height: 18px;
+	font-size: 18px;
+	line-height: 20px;
 	border-radius: 20px;
   	background: #6B38BF;
   	color: white !important;
   	border: 1px solid #6B38BF;
   	padding: 1rem;
- 	width: 92%;
+ 	width: 95%;
   	height: auto;
   	margin-bottom: 1rem;
   	overflow: hidden;
@@ -149,7 +149,7 @@ div {
  	color: #6B38BF;
  	font-weight: normal;
   	padding: 1rem;
-  	width: 92%;
+  	width: 95%;
  	height: auto;
  	margin-bottom: 1rem;
  	overflow: hidden;
@@ -369,10 +369,7 @@ a:hover {
 
 
 .box.two {
-	
 	background:none;
-
-
 }
 	
 
@@ -380,6 +377,7 @@ a:hover {
 	color: #6B38BF;
 	font-size:24px;
 }
+
 
 .back-ll a:hover, .back-ll a:visited, .back-ll a:link, .back-ll a:active {
     text-decoration: none;
@@ -431,7 +429,7 @@ a:hover {
 
 /*SCROLLBAR:*/
 
-  .box.one {overflow: hidden; /* Hide scrollbars */
+.box.one {overflow: hidden; /* Hide scrollbars */
   }
 
 .box.two {overflow: hidden; /* Hide scrollbars */
