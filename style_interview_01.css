@@ -431,6 +431,13 @@ a:hover {
 
 /*SCROLLBAR:*/
 
+  .box.one {overflow: hidden; /* Hide scrollbars */
+  }
+
+.box.two {overflow: hidden; /* Hide scrollbars */
+  }
+
+  
 
 		.box.one::-webkit-scrollbar {
 				width:12px;
