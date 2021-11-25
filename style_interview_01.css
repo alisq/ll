@@ -360,7 +360,7 @@ a:hover {
 }
 
 .box.one {
-	
+	padding: 1rem;
 	font-size: 48px;
 	line-height: 48px;
 	height:auto; /* ALI DID THIS */
