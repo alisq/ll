@@ -50,9 +50,9 @@ p {
 	font-family: "Times New Roman", Times, serif;
 	font-style: normal;
 	hyphens: auto;
-	font-size: 300px;
+	font-size: 42px;
 	grid-column-start: 1;
-	grid-column-end: 2;
+	grid-column-end: 4;
 	grid-row height:default;
 	color: #089e4b;
 	line-height:42px;
