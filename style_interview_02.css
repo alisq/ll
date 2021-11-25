@@ -34,7 +34,7 @@ p {
 	padding-right: .5rem;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: default;
+/*	grid-template-rows: default;*/
 	grid-column-gap: 0rem;
 	grid-row-gap: 0rem;
 	overflow: auto;
@@ -364,7 +364,7 @@ a:hover {
 	position:static; /* ALI REMOVED FIXED PROPERTY */
 	display:block;   /* ALI MADE THIS NO LONGER DISPLAU GRID */
 	height:auto; /* ALI DID THIS */
-	background-image: linear-gradient(to bottom, white, pink);/* REBECCA FIX THIS */
+	background-image: linear-gradient(to bottom, white, #97e6aa);/* REBECCA FIX THIS */
 }
 
 .box.one {
