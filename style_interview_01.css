@@ -386,7 +386,7 @@ a:hover {
 
 
 .question {
-	display:block;
+	display: inline-block;
 	font-family: "Times New Roman", Times, serif;
 	font-style: normal;
 	font-weight:lighter;
