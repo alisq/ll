@@ -364,7 +364,7 @@ a:hover {
 	position:static; /* ALI REMOVED FIXED PROPERTY */
 	display:block;   /* ALI MADE THIS NO LONGER DISPLAU GRID */
 	height:auto; /* ALI DID THIS */
-	background-image: linear-gradient(to bottom, white, #6ed48b);/* REBECCA FIX THIS */
+	background-image: linear-gradient(to bottom, white, #78cc8c);/* REBECCA FIX THIS */
 }
 
 .box.one {
