@@ -363,14 +363,12 @@ a:hover {
 	
 	font-size: 48px;
 	line-height: 48px;
-
 	height:auto; /* ALI DID THIS */
 
 }
 
 
 .box.two {
-	
 	background:none;
 
 }
@@ -388,6 +386,7 @@ a:hover {
 
 
 .question {
+	display:block;
 	font-family: "Times New Roman", Times, serif;
 	font-style: normal;
 	font-weight:lighter;
