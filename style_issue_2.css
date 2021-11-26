@@ -1,3 +1,12 @@
+/*** ALI ADDED THIS **/
+
+* {
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+
 body {
 	background: white;
 	cursor: url(Images/Cursors/Cursor_4-7.png), default;
@@ -281,7 +290,43 @@ body:not(.mobile) #bookmarkpicshover:hover + .bookmarkpics {
 @media only screen and (max-width: 1000px) {
 
 
+
+
+.wrapper {
+	position:static; /* ALI REMOVED FIXED PROPERTY */
+	display:block;   /* ALI MADE THIS NO LONGER DISPLAU GRID */
+	height:auto; /* ALI DID THIS */
+
+}
+
 .box.one {
+	padding: 1rem;
+	font-size: 48px;
+	line-height: 48px;
+	height:auto; /* ALI DID THIS */
+
+}
+
+
+.box.two {
+	background: white;
+	height:auto;
+	width: 100%;
+	margin-bottom: .5rem;
+}
+
+
+.imagetiles {
+  width:75%;
+  height:75%;
+  max-width: 75% !important;
+  max-height: 75% !important;
+  top: 0%;
+  left: 0%;
+}
+
+
+/*.box.one {
 	grid-column-start: 1;
 	grid-column-end: 3;
 	font-size: 48px;
@@ -298,27 +343,17 @@ body:not(.mobile) #bookmarkpicshover:hover + .bookmarkpics {
 	line-height: 48px;
 	overflow:scroll;
 	overflow-x: hidden;
-}
-
-.imagetiles {
-  width:75%;
-  height:75%;
-  max-width: 75% !important;
-  max-height: 75% !important;
-  top: 0%;
-  left: 0%;
-}
-
-	.wrapper {
+}*/
+/*	.wrapper {
 		grid-template-columns: 1fr;
-	}
+	}*/
 
 .back-ll {
 	font-size:24px;
 }
 
 #top {
-margin-bottom: 48px;
+ display:none;
 }
 
 }
