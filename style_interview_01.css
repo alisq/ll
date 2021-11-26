@@ -170,13 +170,22 @@ div {
 
 .back-ll {
 	font-size:22px;
-	color: #8c6ac4 !important;
+	color: #6B38BF!important;
 }
 
 
 .back-ll a:hover, .back-ll a:visited, .back-ll a:link, .back-ll a:active {
     text-decoration: none;
-    color: #8c6ac4;
+    color: white!important;
+}
+
+.back-ll-mobile a:hover, .back-ll a:visited, .back-ll a:link, .back-ll a:active {
+    text-decoration: none;
+}
+
+.back-ll-mobile {
+	text-decoration: none;
+	display: none;
 }
 
 
@@ -194,7 +203,7 @@ a:visited {
 /* mouse over link */
 a:hover {
   color: white;
-  cursor: url(Images/Cursors/Cursor_5.3.png), pointer;
+  cursor: pointer;
 }
 
 
@@ -372,16 +381,22 @@ a:hover {
 }
 	
 
-	.back-ll {
-	color: #6B38BF;
+
+
+
+.back-ll-mobile {
+	margin-top: 1rem;
+	margin-bottom:1rem;
+	margin-left:1rem;
+	display: block;
 	font-size:24px;
+	font-color:#6B38BF;
 }
 
-
-.back-ll a:hover, .back-ll a:visited, .back-ll a:link, .back-ll a:active {
-    text-decoration: none;
-    color: #6B38BF;
+.back-ll {
+	display: none;
 }
+
 
 
 .question {
@@ -424,6 +439,11 @@ a:hover {
   	hyphens: auto;
  	white-space: normal;
 
+}
+
+
+#top {
+		display: none;
 }
 
 /*SCROLLBAR:*/
