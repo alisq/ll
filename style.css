@@ -91,7 +91,7 @@ p {
 }
 
 .issueparagraph {
-	margin-bottom: 4rem !important;
+	margin-bottom: .5rem !important;
 }
 
 .highlight:hover {
@@ -292,7 +292,7 @@ a. {
 
 
 .issueparagraph {
-	margin-bottom: 4rem !important;
+	margin-bottom: 1rem !important;
 }
 
 
