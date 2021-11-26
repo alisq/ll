@@ -276,7 +276,7 @@ a. {
 	padding-left: 1rem;
 	padding-right: 0rem;
 	font-size: 66px;
-	line-height: 68px;
+	line-height: 66px;
 	height:auto; /* ALI DID THIS */
 	margin-bottom:1rem;
 
@@ -286,7 +286,7 @@ a. {
 .box.two {
 	background:none;
 	font-size: 66px;
-	line-height: 68px;
+	line-height: 66px;
 	height:auto;
 }
 
