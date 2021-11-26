@@ -399,7 +399,10 @@ a:hover {
 	display: none !important;
 }
 
+#top {
 
+		margin-left:1rem;
+}
 
 .question {
 	font-family: "Times New Roman", Times, serif;
@@ -427,8 +430,8 @@ a:hover {
 	font-family: "Arial", Arial, Sans-serif;
 	font-weight: 300;
 	font-style: normal;
-	font-size: 38px;
-	line-height: 42px;
+	font-size: 40px;
+	line-height: 44px;
 	border-radius: 20px;
   	background: #6B38BF;
   	color: white !important;

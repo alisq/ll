@@ -164,7 +164,7 @@ div {
 
 #top{
 	font-size: 42px;
-	color: white !important;
+	color: #089e4b !important;
 }
 
 
@@ -377,7 +377,10 @@ a:hover {
 
 
 
-
+#top {
+	color:#089e4b;
+	margin-left:1rem;
+}
 
 
 .back-ll-mobile {
