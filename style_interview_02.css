@@ -213,7 +213,7 @@ a:hover {
 
 #top:hover {
 	  color:white;
-  	  cursor: url(Images/Cursors/Cursor_4-6.png), pointer;
+  	  cursor: pointer;
 }
 
 .daniellepics {

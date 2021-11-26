@@ -9,7 +9,7 @@
 
 body {
 	background: white;
-	cursor: url(Images/Cursors/Cursor_4-5.png), default;
+	cursor: url(Images/Cursors/Cursor_4-6.png), default;
 	font-family: "Times New Roman", Times, serif;
 	font-style: normal;
 }
@@ -100,7 +100,7 @@ p {
 }
 
 .box.two:hover {
-  cursor: url(Images/Cursors/Cursor_4-7.png), pointer;
+  cursor: url(Images/Cursors/Cursor_7.1.png), pointer;
 
 }
 
@@ -121,28 +121,6 @@ p {
 }
 
 
-/*.meetup_pics {
-	position:fixed;
-	top:-800px;
-}
-*/
-
-/*.meetup_picshover:hover {
-	    color:#089e4b;
-	    cursor: url(Images/Cursors/Cursor_4-6.png), pointer;
-}*/
-
-/*.meetup_picshover:hover ~ .meetup_pics {
-  display: inline;
-  z-index:10;
-  pointer-events: auto;
-  position:fixed;
-  left: 15%;
-  flex-direction: column;
-  width: auto !important;
-  height: auto !important;
-  cursor: -webkit-grab; cursor: grab;
-}*/
 
 
 .imagetiles {
@@ -163,18 +141,12 @@ p {
 }
 
 
-/*body:not(.mobile) #meetup_picshover:hover + .meetup_pics {
-    display: flex;
-    pointer-events: none;
-}*/
-
-
 
 
 
 #top:hover {
 	  color:#C3B79C;
-  	  cursor: url(Images/Cursors/Cursor_4-6.png), pointer;
+  	  cursor: pointer;
 }
 
 
@@ -192,7 +164,7 @@ a:visited {
 /* mouse over link */
 a:hover {
   color:#6B38BF;
-  cursor: url(Images/Cursors/Cursor_7-1.png), pointer;
+  cursor: pointer;
 
 }
 
