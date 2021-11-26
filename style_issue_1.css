@@ -312,31 +312,7 @@ a:hover {
 	margin-bottom: .5rem;
 }
 	
-/* OLD CODE REBECCA
-.box.one {
-	grid-column-start: 1;
-	grid-column-end: 3;
-	font-size: 48px;
-	line-height: 48px;
-	grid-row height:default;
-	overflow-y:scroll;
-	overflow:scroll;
-	overflow-x: hidden;
 
-}
-
-
-.box.two {
-	grid-column-start: 1;
-	grid-column-end: 3;
-	overflow:scroll;
-	overflow-x: hidden;
-
-}
-	.wrapper {
-		grid-template-columns: 1fr;
-
-	}*/
 
 	.back-ll {
 	font-size:24px;
