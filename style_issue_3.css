@@ -332,8 +332,7 @@ a.box.two:hover{
 .box.two {
 	background: none;
 	height:auto;
-	width: 100%;
-	padding-right:1rem;
+	width: 98%;
 	font-size: 48px;
 	line-height:48px;
 }
