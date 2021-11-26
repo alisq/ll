@@ -1,6 +1,15 @@
+/*** ALI ADDED THIS **/
+
+* {
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+
 body {
 	background: red;
-	cursor: url(Images/Cursors/Cursor_4-7.png), default;
+	cursor: url(Images/Cursors/Cursor_4-8.png), default;
 	font-family: "Times New Roman", Times, serif;
 	font-style: normal;
 }
@@ -173,7 +182,7 @@ body:not(.mobile) #meetup_picshover:hover + .meetup_pics {
 
 #top:hover {
 	  color:#C3B79C;
-  	  cursor: url(Images/Cursors/Cursor_4-4.png), pointer;
+  	  cursor: pointer;
 }
 
 

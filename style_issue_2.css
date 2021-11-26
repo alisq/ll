@@ -136,7 +136,7 @@ p {
 
 .bookmarkpicshover:hover {
 	  color:#C3B79C;
-	  cursor: url(Images/Cursors/Cursor_4-4.png), pointer;
+	  cursor: url(Images/Cursors/Cursor_4-2.png), pointer;
 }
 
 .bookmarkpicshover:hover ~ .bookmarkpics {
