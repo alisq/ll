@@ -108,14 +108,17 @@ p {
 	color:white;
 }
 
-.back-ll-mobile {
+/*.back-ll-mobile {
 	display: none;
-}
+}*/
 
 .back-ll a:hover, .back-ll a:visited, .back-ll a:link, .back-ll a:active {
     text-decoration: none;
 }
 
+.back-ll-mobile a:hover, .back-ll a:visited, .back-ll a:link, .back-ll a:active {
+    text-decoration: none;
+}
 
 .bookmarkpics {
 	position:fixed;
@@ -339,6 +342,9 @@ body:not(.mobile) #bookmarkpicshover:hover + .bookmarkpics {
 	font-color:red;
 }
 
+.back-ll {
+	display: none;
+}
 
 }
 
