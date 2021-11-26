@@ -109,7 +109,7 @@ a:visited {
 /* mouse over link */
 a:hover {
 color:#C3B79C;
-cursor: url(Images/Cursors/Cursor_4-6.png), pointer;
+cursor: pointer;
 
 
 }
