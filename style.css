@@ -114,7 +114,7 @@ cursor: pointer;
 
 a.issues:link {
   text-decoration: none;
-  cursor: url(Images/Cursors/Cursor_4-6.png), pointer;
+  cursor: pointer;
   color: #6B38BF;
 }
 
