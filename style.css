@@ -90,6 +90,9 @@ p {
 
 }
 
+.issueparagraph {
+	margin-bottom: 2px;
+}
 
 .highlight:hover {
   background-color: #6B38BF;
