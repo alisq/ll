@@ -259,6 +259,7 @@ a.box.two:hover{
 		.box.one::-webkit-scrollbar-track:hover{
 			background:red;
 			width:12px;
+			cursor: pointer;
 /*			height:auto;*/
 			}
 
@@ -273,6 +274,7 @@ a.box.two:hover{
 		.box.two::-webkit-scrollbar-track:hover{
 			background:red;
 			width:12px;
+			cursor: pointer;
 /*			height:auto;*/
 			}
 
@@ -291,6 +293,7 @@ a.box.two:hover{
 		    background: red;
 		    border: 1px dotted white;
 		    border-radius: 10px;
+		    cursor: pointer;
 		}
 
 		.box.two::-webkit-scrollbar-thumb {
@@ -304,6 +307,7 @@ a.box.two:hover{
 		    background: red;
 		    border: 1px dotted white;
 		    border-radius: 10px;
+		    cursor: pointer;
 		}
 
 
@@ -332,6 +336,7 @@ a.box.two:hover{
 	margin-bottom: .5rem;
 	font-size: 48px;
 	line-height:48px;
+	display:block;
 }
 
 .imagetiles {
