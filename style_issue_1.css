@@ -213,6 +213,7 @@ a:hover {
 			background:red;
 			width:12px;
 			height:auto;
+			cursor: pointer;
 			}
 
 		.box.two::-webkit-scrollbar-track{
@@ -225,6 +226,7 @@ a:hover {
 			background:red;
 			width:12px;
 			height:auto;
+			cursor: pointer;
 			}
 
 
@@ -243,6 +245,7 @@ a:hover {
 		    background: red;
 		    border: 1px dotted white;
 		    border-radius: 10px;
+		    cursor: pointer;
 
 		}
 
@@ -258,6 +261,7 @@ a:hover {
 		    background: red;
 		    border: 1px dotted white;
 		    border-radius: 10px;
+		    cursor: pointer;
 
 		}
 
