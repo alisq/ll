@@ -132,6 +132,12 @@ a.issues:link {
   color: #6B38BF;
 }
 
+a.issueparagraph:link {
+  text-decoration: none;
+  cursor: pointer;
+  color: #6B38BF;
+}
+
 a. {
 	color: #6B38BF;
 

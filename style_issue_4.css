@@ -1,3 +1,12 @@
+/*** ALI ADDED THIS **/
+
+* {
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+
 body {
 	background: white;
 	cursor: url(Images/Cursors/Cursor_4-5.png), default;
@@ -81,7 +90,7 @@ p {
 	text-align:left;
 	padding-left:1rem;
 	padding-right:0rem;
-	padding-top:1.5rem;
+	padding-top:1.25rem;
 	padding-bottom: .5rem;
 	margin: 0px;
 	font-style: normal;
