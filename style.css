@@ -78,7 +78,7 @@ p {
 	grid-row height:default;
 	overflow: scroll;
 	overflow-x: hidden;
-	cursor: url(Images/Cursors/Cursor_4-8.png), pointer;
+/*	cursor: url(Images/Cursors/Cursor_4-8.png), pointer;*/
 
 }
 
@@ -110,6 +110,8 @@ a:visited {
 a:hover {
 color:#C3B79C;
 cursor: pointer;
+
+
 }
 
 a.issues:link {
