@@ -350,6 +350,7 @@ a.box.two:hover{
 
 .back-ll-mobile {
 	margin-top: 1rem;
+	margin-bottom:1rem;
 	display: block;
 	font-size:24px;
 	font-color:red;
