@@ -334,8 +334,9 @@ body:not(.mobile) #bookmarkpicshover:hover + .bookmarkpics {
  display:none;
 }
 
-.back-ll {
+.back-ll-mobile {
 	font-size:24px;
+	font-color:red;
 }
 
 
