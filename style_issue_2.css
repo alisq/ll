@@ -166,7 +166,7 @@ body:not(.mobile) #bookmarkpicshover:hover + .bookmarkpics {
 
 #top:hover {
 	  color:#C3B79C;
-  	  cursor: url(Images/Cursors/Cursor_4-4.png), pointer;
+  	  cursor: pointer;
 }
 
 
