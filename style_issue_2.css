@@ -103,12 +103,14 @@ p {
 }
 
 
-
 .back-ll {
 	font-size:22px;
 	color:white;
 }
 
+.back-ll-mobile {
+	display: none;
+}
 
 .back-ll a:hover, .back-ll a:visited, .back-ll a:link, .back-ll a:active {
     text-decoration: none;
@@ -328,35 +330,14 @@ body:not(.mobile) #bookmarkpicshover:hover + .bookmarkpics {
 }
 
 
-/*.box.one {
-	grid-column-start: 1;
-	grid-column-end: 3;
-	font-size: 48px;
-	line-height: 48px;
-	overflow:scroll;
-	overflow-x: hidden;
-
+#top {
+ display:none;
 }
-
-.box.two {
-	grid-column-start: 1;
-	grid-column-end: 3;
-	font-size: 48px;
-	line-height: 48px;
-	overflow:scroll;
-	overflow-x: hidden;
-}*/
-/*	.wrapper {
-		grid-template-columns: 1fr;
-	}*/
 
 .back-ll {
 	font-size:24px;
 }
 
-#top {
- display:none;
-}
 
 }
 
