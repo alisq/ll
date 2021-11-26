@@ -90,6 +90,10 @@ p {
 
 }
 
+.smallbreak {
+	line-height: 2px;
+}
+
 .highlight:hover {
   background-color: #6B38BF;
   cursor: url(Images/Cursors/Cursor_4-8.png), pointer;
