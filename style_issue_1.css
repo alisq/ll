@@ -303,6 +303,8 @@ a:hover {
 
 .box.two {
 	background: white;
+	height:auto;
+	width: 100%;
 }
 	
 /* OLD CODE REBECCA
