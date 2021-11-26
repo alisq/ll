@@ -76,7 +76,6 @@ div {
 	grid-column-start: 2;
 	grid-column-end: 4;
 	padding: 0px;
-	margin-right: .75rem;
 	margin-top: .75rem;
 	vertical-align: top;
   	display: block;
@@ -344,7 +343,7 @@ a:hover {
 }
 
 #top {
-margin-bottom: 48px;
+ display:none;
 }
 
 }
