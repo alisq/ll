@@ -1,3 +1,12 @@
+/*** ALI ADDED THIS **/
+
+* {
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+
 body {
 	background: red;
 	cursor: url(Images/Cursors/Cursor_4-8.png), default;
@@ -103,13 +112,13 @@ a:visited {
 /* mouse over link */
 a:hover {
   color: #C3B79C;
-  cursor: url(Images/Cursors/Cursor_4-4.png), pointer;
+  cursor: pointer;
 }
 
 .highlight:hover {
-  background-color: #6B38BF;
+  background-color: #C3B79C;
   color: white;
-  cursor: url(Images/Cursors/Cursor_5.3.png), pointer;
+  cursor: url(Images/Cursors/Cursor_4-4.png), pointer;
 
 }
 
@@ -276,6 +285,27 @@ a:hover {
 
 
 
+.wrapper {
+	position:static; /* ALI REMOVED FIXED PROPERTY */
+	display:block;   /* ALI MADE THIS NO LONGER DISPLAU GRID */
+	height:auto; /* ALI DID THIS */
+
+}
+
+.box.one {
+	padding: 1rem;
+	font-size: 48px;
+	line-height: 48px;
+	height:auto; /* ALI DID THIS */
+
+}
+
+
+.box.two {
+	background: white;
+}
+	
+/* OLD CODE REBECCA
 .box.one {
 	grid-column-start: 1;
 	grid-column-end: 3;
@@ -299,7 +329,7 @@ a:hover {
 	.wrapper {
 		grid-template-columns: 1fr;
 
-	}
+	}*/
 
 	.back-ll {
 	font-size:24px;
