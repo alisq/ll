@@ -216,8 +216,8 @@ a:hover {
 
 
 #top:hover {
-	  color:white;
-  	  cursor: url(Images/Cursors/Cursor_5.3.png), pointer;
+	  color:#6B38BF;
+  	  cursor: pointer;
 }
 
 .qawpic {
@@ -384,7 +384,7 @@ a:hover {
 
 .back-ll-mobile {
 	margin-top: 1rem;
-	margin-bottom:2rem;
+	padding-bottom:2rem;
 	margin-left:1rem;
 	display: block;
 	font-size:24px;
@@ -440,9 +440,9 @@ a:hover {
 }
 
 
-#top {
+/*#top {
 		display: none;
-}
+}*/
 
 /*SCROLLBAR:*/
 
