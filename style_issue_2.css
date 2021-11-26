@@ -309,7 +309,7 @@ body:not(.mobile) #bookmarkpicshover:hover + .bookmarkpics {
 
 
 .box.two {
-	background: white;
+	background: none;
 	height:auto;
 	width: 100%;
 	margin-bottom: .5rem;
