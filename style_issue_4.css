@@ -137,11 +137,7 @@ p {
   	height:100%;
   	max-width: 100% !important;
   	max-height: 100% !important;
-
 }
-
-
-
 
 
 #top:hover {
@@ -273,22 +269,28 @@ img {
 
 @media only screen and (max-width: 1000px) {
 
-
-.box.one {
-	grid-column-start: 1;
-	grid-column-end: 3;
-	font-size: 48px;
-	line-height: 48px;
-	overflow:scroll;
-	overflow-x: hidden;
+.wrapper {
+	position:static; /* ALI REMOVED FIXED PROPERTY */
+	display:block;   /* ALI MADE THIS NO LONGER DISPLAU GRID */
+	height:auto; /* ALI DID THIS */
 
 }
 
+.box.one {
+	padding: 1rem;
+	font-size: 48px;
+	line-height: 48px;
+	height:auto; /* ALI DID THIS */
+
+}
+
+
 .box.two {
-	grid-column-start: 1;
-	grid-column-end: 3;
-	overflow:scroll;
-	overflow-x: hidden;
+	background: none;
+	height:auto;
+	width: 97%;
+	font-size: 48px;
+	line-height:48px;
 }
 
 .imagetiles {
@@ -301,16 +303,21 @@ img {
 }
 
 
-.wrapper {
-	grid-template-columns: 1fr;
-	}
+
+.back-ll-mobile {
+	margin-top: 1rem;
+	margin-bottom:1rem;
+	display: block;
+	font-size:24px;
+	font-color:red;
+}
 
 .back-ll {
-	font-size:24px;
+	display: none;
 }
 
 #top {
-margin-bottom: 48px;
+		display: none;
 }
 
 
