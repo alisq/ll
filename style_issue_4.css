@@ -121,6 +121,15 @@ p {
 }
 
 
+.back-ll-mobile a:hover, .back-ll a:visited, .back-ll a:link, .back-ll a:active {
+    text-decoration: none;
+}
+
+.back-ll-mobile {
+	text-decoration: none;
+	display: none;
+}
+
 
 
 .imagetiles {
@@ -141,7 +150,7 @@ p {
 
 
 #top:hover {
-	  color:#C3B79C;
+	  color:#6B38BF;
   	  cursor: pointer;
 }
 
@@ -219,6 +228,7 @@ img {
 		.box.one::-webkit-scrollbar-track:hover{
 			background:white;
 			width:12px;
+			cursor: pointer;
 /*			height:auto;*/
 			}
 
@@ -233,6 +243,7 @@ img {
 		.box.two::-webkit-scrollbar-track:hover{
 			background:white;
 			width:12px;
+			cursor: pointer;
 /*			height:auto;*/
 			}
 
@@ -251,6 +262,7 @@ img {
 		    background: white;
 		    border: 1px dotted #089e4b;
 		    border-radius: 10px;
+		    cursor: pointer;
 		}
 
 		.box.two::-webkit-scrollbar-thumb {
@@ -264,6 +276,7 @@ img {
 		    background: white;
 		    border: 1px dotted #089e4b;
 		    border-radius: 10px;
+		    cursor: pointer;
 		}
 
 
