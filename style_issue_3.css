@@ -119,6 +119,15 @@ p {
 }
 
 
+.back-ll-mobile a:hover, .back-ll a:visited, .back-ll a:link, .back-ll a:active {
+    text-decoration: none;
+}
+
+.back-ll-mobile {
+	text-decoration: none;
+	display: none;
+}
+
 
 .meetup_pics {
 	position:fixed;
@@ -200,7 +209,7 @@ a:visited {
 /* mouse over link */
 a:hover {
   color:#C3B79C;
-  cursor: url(Images/Cursors/Cursor_4-4.png), pointer;
+  cursor: pointer;
 
 }
 
@@ -214,9 +223,9 @@ a.box.two:hover{
 
 
 .highlight:hover {
-  color:red;
-  background-color: yellow;
-  cursor: url(Images/Cursors/Cursor_4-8.png), pointer;
+  color:white;
+  background-color: #C3B79C;
+  cursor: url(Images/Cursors/Cursor_4-4.png), pointer;
 
 }
 
@@ -300,20 +309,29 @@ a.box.two:hover{
 
 @media only screen and (max-width: 1000px) {
 
+.wrapper {
+	position:static; /* ALI REMOVED FIXED PROPERTY */
+	display:block;   /* ALI MADE THIS NO LONGER DISPLAU GRID */
+	height:auto; /* ALI DID THIS */
 
-.box.one {
-	grid-column-start: 1;
-	grid-column-end: 3;
-	font-size: 48px;
-	line-height: 48px;
-	overflow:scroll;
-	overflow-x: hidden;
 }
 
+.box.one {
+	padding: 1rem;
+	font-size: 48px;
+	line-height: 48px;
+	height:auto; /* ALI DID THIS */
+
+}
+
+
 .box.two {
-	grid-column-start: 1;
-	grid-column-end: 3;
-	overflow-x: hidden;
+	background: none;
+	height:auto;
+	width: 100%;
+	margin-bottom: .5rem;
+	font-size: 48px;
+	line-height:48px;
 }
 
 .imagetiles {
@@ -326,12 +344,16 @@ a.box.two:hover{
 }
 
 
-	.wrapper {
-		grid-template-columns: 1fr;
-	}
+
+.back-ll-mobile {
+	margin-top: 1rem;
+	display: block;
+	font-size:24px;
+	font-color:red;
+}
 
 .back-ll {
-	font-size:24px;
+	display: none;
 }
 
 #top {
