@@ -202,8 +202,8 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: #089e4b;
-  cursor: pointer;
+  color: white;
+  cursor: pointer !important;
 }
 
 
@@ -216,7 +216,7 @@ a:hover {
 
 
 #top:hover {
-	  color:#6B38BF;
+	  color:white;
   	  cursor: pointer;
 }
 
@@ -303,6 +303,7 @@ a:hover {
 		.box.one::-webkit-scrollbar-track:hover{
 			width:12px;
 			height:auto;
+			cursor: pointer;
 			}
 
 		.box.two::-webkit-scrollbar-track{
@@ -313,6 +314,7 @@ a:hover {
 		.box.two::-webkit-scrollbar-track:hover{
 			width:12px;
 			height:auto;
+			cursor: pointer;
 			}
 
 
@@ -330,6 +332,7 @@ a:hover {
 		    background: #6B38BF;
 		    border: 1px dotted white;
 		    border-radius: 10px;
+		    cursor: pointer;
 
 		}
 
@@ -344,6 +347,7 @@ a:hover {
 		    background: #6B38BF;
 		    border: 1px dotted white;
 		    border-radius: 10px;
+		    cursor: pointer;
 
 		}
 
@@ -439,10 +443,6 @@ a:hover {
 
 }
 
-
-/*#top {
-		display: none;
-}*/
 
 /*SCROLLBAR:*/
 

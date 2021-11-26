@@ -7,7 +7,7 @@
 }
 
 body {
-	cursor: url(Images/Cursors/Cursor_4-5.png), default;
+	cursor: url(Images/Cursors/Cursor_6.2.png), default;
 	overflow-x: hidden;
 
 }
@@ -170,13 +170,13 @@ div {
 
 .back-ll {
 	font-size:22px;
-	color: #57c286 !important;
+	color: #089e4b !important;
 }
 
 
 .back-ll a:hover, .back-ll a:visited, .back-ll a:link, .back-ll a:active {
     text-decoration: none;
-    color: #57c286;
+    color: white;
     cursor: url(Images/Cursors/Cursor_4-6.png), pointer;
 }
 
@@ -199,7 +199,7 @@ a:visited .answer{
 /* mouse over link */
 a:hover {
   color: white;
-  cursor: url(Images/Cursors/Cursor_4-6.png), pointer;
+  cursor: pointer;
 }
 
 
@@ -376,25 +376,33 @@ a:hover {
 }
 
 
-/*.box.two {
-	background:yellow;
-}
+
 	*/
 
-.back-ll {
+/*.back-ll {
 	color: #089e4b;
 	font-size:24px;
 	margin-bottom: 1rem;
 }
 
 
-
-
 .back-ll a:hover, .back-ll a:visited, .back-ll a:link, .back-ll a:active {
     text-decoration: none;
     color: #089e4b;
+}*/
+
+.back-ll-mobile {
+	margin-top: 1rem;
+	padding-bottom:2rem;
+	margin-left:1rem;
+	display: block;
+	font-size:24px;
+	font-color:#089e4b;
 }
 
+.back-ll {
+	display: none !important;
+}
 
 .question {
 	font-family: "Times New Roman", Times, serif;
