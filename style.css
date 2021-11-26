@@ -273,6 +273,7 @@ a. {
 
 .box.one {
 	padding: 1rem;
+	padding-right:.5rem;
 	font-size: 66px;
 	line-height: 68px;
 	height:auto; /* ALI DID THIS */
