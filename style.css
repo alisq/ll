@@ -11,7 +11,7 @@
 body {
 	background: red;
 	cursor: url(Images/Cursors/Cursor_4-6.png), default;
-/*	overflow-x: hidden;*/
+	overflow-x: hidden;
 	font-family: "Times New Roman", Times, serif;
 	font-style: normal;
 }
@@ -259,7 +259,7 @@ a. {
 
 @media only screen and (max-width: 1000px) {
 
-.box.one {
+/*.box.one {
 
 	font-size: 48px;
 	line-height: 48px;
@@ -283,6 +283,28 @@ a. {
 	color: white;
 	overflow:scroll;
 	overflow-x: hidden;
+*/
+
+
+.wrapper {
+	position:static; /* ALI REMOVED FIXED PROPERTY */
+	display:block;   /* ALI MADE THIS NO LONGER DISPLAU GRID */
+	height:auto; /* ALI DID THIS */
+}
+
+.box.one {
+	padding: 1rem;
+	font-size: 48px;
+	line-height: 48px;
+	height:auto; /* ALI DID THIS */
+
+}
+
+
+.box.two {
+	background:none;
+}
+
 
 }
 
