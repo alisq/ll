@@ -357,6 +357,7 @@ a.box.two:hover{
 }
 
 #top {
+		display: none;
 margin-bottom: 48px;
 }
 
