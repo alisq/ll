@@ -12,7 +12,7 @@ $(".publication_picshover").hover(function(details){ // adding an event listener
 
  $(".publication_pics")
         .css({
-            "top": 30, "left": 30, "position":'absolute'});
+            "top": 1000, "left": 1000, "position":'absolute'});
 
 }, function() { //when you are no longer hovering.
 	$(".publication_pics").attr("style","") //clear out the "style" attribute by filling it with nothing + it then goes m=back to the css style / placement
