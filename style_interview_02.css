@@ -136,36 +136,18 @@ div {
 }
 
 
-/*
-.conclusion {
-	font-family: "Times New Roman", Times, serif;
-	font-style: normal;
-	font-weight:lighter;
-	font-size: 42px;
-	line-height: 42px;
-	border-radius: 20px;
- 	background: none;
- 	color: #089e4b;
- 	font-weight: normal;
-  	padding: 1rem;
-  	width: 95%;
- 	height: auto;
- 	margin-bottom: 1rem;
- 	overflow: hidden;
- 	hyphens: none;
- 	white-space: normal;
 
-}
-
-.conclusion .a {
-	color:white;
-}
-*/
 
 #top{
 	font-size: 42px;
-	color: #089e4b !important;
+	color: #089e4b;
 }
+
+#top:hover {
+	  color:white !important;
+  	  cursor: pointer;
+}
+
 
 
 .back-ll {
@@ -174,7 +156,7 @@ div {
 }
 
 
-.back-ll a:hover, .back-ll a:visited, .back-ll a:link, .back-ll a:active {
+.back-ll a:hover/*, .back-ll a:visited, .back-ll a:link*/, .back-ll a:active {
     text-decoration: none;
     color: white;
     cursor: url(Images/Cursors/Cursor_4-6.png), pointer;
@@ -211,10 +193,7 @@ a:hover {
 }
 
 
-#top:hover {
-	  color:white;
-  	  cursor: pointer;
-}
+
 
 .daniellepics {
 	/*display:none!important;*/
@@ -378,13 +357,7 @@ a:hover {
 
 
 #top {
-	color:#089e4b;
-	margin-left:1rem;
-}
-
-#top:hover {
-	  color:white;
-  	  cursor: pointer;
+		display: none;
 }
 
 .back-ll-mobile {

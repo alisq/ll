@@ -167,6 +167,11 @@ div {
 	color: #6B38BF;
 }
 
+#top:hover {
+	  color:white;
+  	  cursor: pointer;
+}
+
 
 .back-ll {
 	font-size:22px;
@@ -215,10 +220,6 @@ a:hover {
 }
 
 
-#top:hover {
-	  color:white;
-  	  cursor: pointer;
-}
 
 .qawpic {
 	/*display:none!important;*/
@@ -368,7 +369,7 @@ a:hover {
 	position:static; /* ALI REMOVED FIXED PROPERTY */
 	display:block;   /* ALI MADE THIS NO LONGER DISPLAU GRID */
 	height:auto; /* ALI DID THIS */
-	background-image: linear-gradient(to bottom, white, #8c60d2);/* REBECCA FIX THIS */
+	background-image: linear-gradient(to bottom, white, #8c60d2);/* REBECCA FIXED THIS */
 }
 
 .box.one {
@@ -400,8 +401,7 @@ a:hover {
 }
 
 #top {
-
-		margin-left:1rem;
+		display: none;
 }
 
 .question {
