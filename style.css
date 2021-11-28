@@ -163,7 +163,7 @@ img {
 	    cursor: url(Images/Cursors/Cursor_4-4.png), pointer;
 }
 
-.publication_picshover:hover ~ .meetup_pics {
+.publication_picshover:hover ~ .publication_pics {
   display: inline;
   z-index:10;
   pointer-events: auto;
