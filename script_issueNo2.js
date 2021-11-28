@@ -41,7 +41,7 @@ setInterval(function() {
     .fadeIn(0)
     .end()
     .appendTo('.bookmarkpics');
-},  1500);
+},  1200);
 
 
 

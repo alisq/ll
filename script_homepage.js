@@ -40,7 +40,7 @@ setInterval(function() {
     .fadeIn(0)
     .end()
     .appendTo('.publication_pics');
-},  1500);
+},  350);
 
 
 

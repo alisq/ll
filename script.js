@@ -40,7 +40,7 @@ setInterval(function() {
     .fadeIn(0)
     .end()
     .appendTo('.posterpic');
-},  1500);
+},  1200);
 
 
 

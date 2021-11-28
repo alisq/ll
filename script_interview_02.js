@@ -41,7 +41,7 @@ setInterval(function() {
     .fadeIn(0)
     .end()
     .appendTo('.daniellepics');
-},  1500);
+},  1200);
 
 
 

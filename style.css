@@ -146,7 +146,8 @@ a. {
 
 .publication_pics {
 	position:fixed;
-	top: -1000px;
+	top: -1200px;
+/*	display: none;*/
 }
 
 
@@ -160,7 +161,7 @@ img {
 
 .publication_picshover:hover {
 	  color:#C3B79C;
-	    cursor: url(Images/Cursors/Cursor_4-4.png), pointer;
+	    cursor: url(Images/Cursors/Cursor_4-8.png), pointer;
 }
 
 .publication_picshover:hover ~ .publication_pics {
