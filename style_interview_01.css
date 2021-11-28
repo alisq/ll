@@ -7,7 +7,7 @@
 }
 
 body {
-	cursor: url(Images/Cursors/Cursor_4-8.png), default;
+	cursor: url(Images/Cursors/Cursor_8-2.png), default;
 	overflow-x: hidden;
 
 }
@@ -174,9 +174,9 @@ div {
 }
 
 
-.back-ll a:hover, .back-ll a:visited, .back-ll a:link, .back-ll a:active {
+.back-ll a:hover,/* .back-ll a:visited, .back-ll a:link,*/ .back-ll a:active {
     text-decoration: none;
-    color: #6B38BF!important;
+    color: white;
 }
 
 .back-ll-mobile a:hover, .back-ll a:visited, .back-ll a:link, .back-ll a:active {
