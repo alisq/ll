@@ -144,6 +144,55 @@ a. {
 }
 
 
+.publication_pics {
+	position:fixed;
+	top:-800px;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  padding:0px;
+  margin:0px;
+  display: block;
+}
+
+.publication_picshover:hover {
+	  color:#C3B79C;
+	    cursor: url(Images/Cursors/Cursor_4-4.png), pointer;
+}
+
+.publication_picshover:hover ~ .meetup_pics {
+  display: inline;
+  z-index:10;
+  pointer-events: auto;
+  position:fixed;
+  left: 15%;
+  flex-direction: column;
+/*  max-width: 65% !important;
+  max-height: 65% !important;*/
+  width: auto !important;
+  height: auto !important;
+  cursor: -webkit-grab; cursor: grab;
+}
+
+.imagetiles {
+  width:70%;
+  height:70%;
+  max-width: 70% !important;
+  max-height: 70% !important;
+/*  top: 0%;
+  left: 200%;*/
+}
+
+body:not(.mobile) #publication_picshover:hover + .publication_pics {
+    display: flex;
+    pointer-events: none;
+}
+
+
+
 /*INTERVIEWS COMING SOON GRAPHIC*/
 
 		.starburst {
