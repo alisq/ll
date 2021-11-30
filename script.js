@@ -15,7 +15,9 @@ $("#everything .column").each(function(){
     }
 })
 
-
+$("#toggle-grid").click(function(){
+    $("#grid1").toggleClass("active")
+})
 
 $("#everything2 .column").each(function(){
     for (i=0;i<55;i++) {
