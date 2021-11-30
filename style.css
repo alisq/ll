@@ -16,22 +16,6 @@ body {
 transform-origin: 0 0;
 }
 
-nav {
-	display:flex;
-	color:white;
-	vertical-align: center;
-
-}
-
-nav div {
-	
-	margin-right:3em;
-}
-
-label {
-	margin-left:0.5em;
-}
-
 input,
 button {
 	border-radius:1em;
@@ -87,7 +71,7 @@ button:hover {
 	margin-top:20px;
 }
 
-#toggle-grid {
+nav {
 	position:fixed;
 	z-index:6;
 	margin:0.25em;

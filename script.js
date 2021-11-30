@@ -32,6 +32,12 @@ $("#toggle-grid").click(function(){
     $("#grid1").addClass("active")
 })
 
+$("#reverse-colors").click(function(){
+    $(".tile").each(function(){
+        $(this).toggleClass("white")
+    })
+})
+
 
 $(document).on("mouseover",".tile",function(e){
     if(e.buttons == 1 || e.buttons == 3){
