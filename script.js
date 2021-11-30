@@ -28,6 +28,10 @@ $("#everything2 .column").each(function(){
 })
 
 dupeFloor();
+$("#toggle-grid").click(function(){
+    $("#grid1").addClass("active")
+})
+
 
 $(document).on("mouseover",".tile",function(e){
     if(e.buttons == 1 || e.buttons == 3){
