@@ -1,24 +1,47 @@
 let w=$(window).width();
 let eW = $(".floor").width()*2-40;
-console.log(w/eW)
+
 
 $("#everything").css({
     "transform":"scale("+w/eW+")"
 })
 
 
-$("#everything").css({
 
-})
-
-$(".column").each(function(){
+$("#everything .column").each(function(){
     for (i=0;i<15;i++) {
         $("<div class='tile'></div>")
             .appendTo($(this))
     }
 })
 
+
+
+$("#everything2 .column").each(function(){
+    for (i=0;i<55;i++) {
+        $("<div class='tile'></div>")
+            .appendTo($(this))
+    }
+})
 dupeFloor();
+
+$("#generate").click(function(){
+    cols=$("#cols").val()
+    rows=$("#rows").val()
+    for (i=0;i<cols.length;i++) {
+        offset="";
+        if (i%2===0) {
+            offset="";
+        } else {
+            offset="offset"
+        }
+        $("<div class='column "+offset+"'></div>")
+        .appendTo("#everything3")
+            
+    }
+    
+})
+
 
 $(document).on("mouseover",".tile",function(e){
     if(e.buttons == 1 || e.buttons == 3){
@@ -38,11 +61,11 @@ $(document).on("click",".tile",function(e){
 
 
 function dupeFloor() {
-    var c = $("#floor1").html();
+    var c = $("#everything #floor1").html();
     // console.log(c)
-    $("#floor2").html(c)
-    $("#floor3").html(c)
-    $("#floor4").html(c)
+    $("#everything #floor2").html(c)
+    $("#everything #floor3").html(c)
+    $("#everything #floor4").html(c)
 
 
 }

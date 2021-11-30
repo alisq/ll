@@ -2,13 +2,50 @@
 	box-sizing:border-box;
 	padding:0;
 	margin:0;
+	-webkit-print-color-adjust: exact;
 }
 
 body {
 	background:rgb(52, 52, 52);
+	font-size:24px;
+	font-family:arial;
 }
-#everything {
+#everything,
+#everything2,
+#everything3 {
 transform-origin: 0 0;
+}
+
+nav {
+	display:flex;
+	color:white;
+	vertical-align: center;
+
+}
+
+nav div {
+	
+	margin-right:3em;
+}
+
+label {
+	margin-left:0.5em;
+}
+
+input,
+button {
+	border-radius:1em;
+	padding:0.5em 2em;
+	
+	font-size:24px;
+	border:1px solid #FFF;
+	
+}
+
+button:active,
+button:hover {
+	background:black;
+	color:white;
 }
 
 .floor {
