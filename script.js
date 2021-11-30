@@ -45,7 +45,6 @@ $(document).on("mouseover",".tile",function(e){
 $(document).on("click",".tile",function(e){
         $(this).toggleClass("white")
 
-        $(this).toggleClass("white");
         dupeFloor()
 
 })
