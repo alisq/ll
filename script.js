@@ -103,6 +103,20 @@ function generateFloor(cols, rows) {
                     return tiles;
                     
                 })
-                .appendTo(".floor")
+                .appendTo("#floor1");
+                dupeFloor();
+
+                $("#floor2").css({
+                    top:$("#floor1").height()-40
+                })
+
+                $("#floor3").css({
+                    left:$("#floor1").width()-30
+                })
+
+                $("#floor4").css({
+                    top:rows*39,
+                    left:$("#floor1").width()-30
+                })
     }
 }
