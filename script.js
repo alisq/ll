@@ -38,13 +38,49 @@ $("#reverse-colors").click(function(){
     })
 })
 
+$("#print-button").click(function(){
+    let message=`
+    <div class="popup__cover"></div>
+        <div class='popup__content'>
+            Click below to print. (ideally in chrome)<br />
+            Set <em>Destination</em> to <strong>Save As PDF</strong><br />
+            Maybe set <em>Layout</em> to <strong>Landscape</strong><br /><br />
+            Under <em>More Settings</em>, set:<br />
+            <em>Paper size</em> to <strong>Tabloid</strong><br />
+            <em>Margins</em> to <strong>none</strong><br />
+            <br />
+            Hit <strong>Save</strong><br />
+            You can edit the saved PDF in Illustrator.
+            <br /><br />
+            <a class='button active' id="actual-print-button">print</a>
+            <a class='button active' id="close-poopup">close popup</a>
+        </div>
+    `
 
+    $(message).appendTo("body")
+        
+})
 $(document).on("mouseover",".tile",function(e){
     if(e.buttons == 1 || e.buttons == 3){
         //do some stuff
         $(this).toggleClass("white")
         dupeFloor()
     }        
+})
+
+$(document).on("click","#actual-print-button",function(){
+    $(".popup__content, .popup__cover").remove();
+    setTimeout(function(){
+        window.print();
+    },50)
+    
+})
+
+
+$(document).on("click","#close-popup",function(){
+    $(".popup__content, .popup__cover").remove();
+    
+    
 })
 
 
@@ -59,8 +95,12 @@ $(document).on("click",".tile",function(e){
 const parsedUrl = new URL(window.location.href);
 
 
+if (window.location.href.includes("index3.html")) {
+    generateFloor(parsedUrl.searchParams.get("cols"), parsedUrl.searchParams.get("rows"))
+}
 
-generateFloor(parsedUrl.searchParams.get("cols"), parsedUrl.searchParams.get("rows"))
+
+
 $("#generate").click(function(){
 
         cols = $("#cols").val();

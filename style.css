@@ -87,6 +87,17 @@ nav {
 	
 }
 
+
+#nav__top--left {
+	left:0;
+	top:0;
+}
+
+#nav__top--right {
+	right:0;
+	top:0;
+}
+
 #nav__bottom--left {
 	left:0;
 	bottom:0;
@@ -137,6 +148,27 @@ nav {
 	display:flex;
 }
 
+.popup__cover {
+	position:fixed;
+	width:100%;
+	height:100vh;
+	top:0;
+	left:0;
+	background:rgba(255,255,255,0.5);
+}
+
+.popup__content {
+	position:fixed;
+	background:#FFF;
+	width:100%; 
+	max-width:800px;
+	padding:2em;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+
+}
+
 @media print {
 
 	html, body {
@@ -144,7 +176,9 @@ nav {
 		height: 11in;
 		margin:0;
 	  }
- nav {
+ nav,
+ .popup__content,
+ .popup__cover {
 	 display:none;
  }
 }
