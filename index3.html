@@ -13,15 +13,27 @@
 <body>
 
 
-		<nav>
-		<div><input type="number" id="cols"><label for="cols">columns</label></div>
-		<div><input type="number" id="rows"><label for="rows">rows</label></div>
-		<button id="generate">generate floor</button>
+		<nav id="nav__top--left" class="flex">
+			<input placeholder="columns" type="number" id="cols" max="100">
+			<input placeholder="rows" type="number" id="rows" max="100"></div>
+			<button id="generate">generate floor</button>
 		</nav>
 
+		<nav id="nav__bottom--left">
+			<!-- <button id="toggle-grid">toggle grid</button> -->
+			<a href="index.html" class="button ">reflecto</a>
+			<a href="index2.html" class="button">big canvas</a>
+			<a href="index3.html" class="button active">custom size</a>
+			</nav>
+
+		<nav id="nav__bottom--right">
+			<button id="toggle-grid">toggle grid</button>
+			<button id="reverse-colors">reverse colors</button>
+		</nav>
 
 			<div id="everything3">
-				
+				<div class="floor"></div>
+
 			</div>
 
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

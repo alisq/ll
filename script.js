@@ -14,7 +14,7 @@ $("#everything").css({
 $("#everything .column").each(function(){
     for (i=0;i<15;i++) {
     
-        $("<div class='tile'></div>")
+        $("<div class='tile tile-"+i+"'></div>")
             .appendTo($(this))
     }
 })
@@ -56,6 +56,20 @@ $(document).on("click",".tile",function(e){
 })
 
 
+const parsedUrl = new URL(window.location.href);
+
+
+
+generateFloor(parsedUrl.searchParams.get("cols"), parsedUrl.searchParams.get("rows"))
+$("#generate").click(function(){
+
+        cols = $("#cols").val();
+        rows = $("#rows").val();
+        generateFloor(cols, rows)
+      
+})
+
+
 function dupeFloor() {
     var c = $("#floor1").html();
     // console.log(c)
@@ -65,3 +79,30 @@ function dupeFloor() {
 
 
 } 
+
+
+function generateFloor(cols, rows) {
+    url="index3.html?cols="+cols+"&rows="+rows;
+    console.log(url)
+    
+    window.history.replaceState('page2', 'Title', url);
+    if (cols > 100) { cols = 100}
+    if (rows > 100) { rows = 100}
+    for (i=0;i<cols;i++) {
+        offset = "";
+        if (i % 2 === 1) {
+            offset = " offset"
+        }
+        $("<div class='column"+offset+" column-'"+i+"'></div>")
+                .html(function(){
+                    var tiles = "";
+                    for (j=0;j<rows;j++) {
+                        tiles+="<div class='tile'></div>";
+                    }
+                    j=0;
+                    return tiles;
+                    
+                })
+                .appendTo(".floor")
+    }
+}
