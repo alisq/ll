@@ -134,7 +134,7 @@ nav {
 }
 
 .tile {
-	border:2px solid rgb(52, 52, 52);
+	/* border:2px solid rgb(52, 52, 52); */
 	background:black;
 	width:40px;
 	height:40px;
