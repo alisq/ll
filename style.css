@@ -55,29 +55,29 @@ button:hover {
 
 #floor2 {
     transform: scaleY(-1);
-	top:600px;
+	top:580px;
 	z-index:-1;
 }
 
 #floor3 {
     transform: scaleX(-1);
 	top:0;
-	left:1200px;
+	left:1090px;
 	z-index:-1
 }
 #floor4 {
     transform: scale(-1,-1);
-	top:600px;
-	left:1200px;
+	top:580px;
+	left:1090px;
 	z-index:-2;
 }
 
 
 .column {
-	width:40px;
+	width:35px;
 }
 .column.offset {
-	/* margin-top:20px; */
+	margin-top:20px;
 }
 
 nav {
@@ -134,11 +134,11 @@ nav {
 }
 
 .tile {
-	/* border:2px solid rgb(52, 52, 52); */
+	border:2px solid rgb(52, 52, 52);
 	background:black;
 	width:40px;
 	height:40px;
-	/* border-radius:50%; */
+	border-radius:50%;
 }
 .tile.white {
 	background:white;
